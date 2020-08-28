@@ -18,10 +18,38 @@
     "
       href="css/style.css"
     />
-    <title>Ristorante Con Fusion</title>
+    <title>Ristorante ConFusion</title>
   </head>
 
   <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-auto" href="./index.html">
+          Ristorante Con Fusion
+        </a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
@@ -40,6 +68,10 @@
 
     <div class="container">
       <div class="row">
+        <ol class="col-12 breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active">About Us</li>
+        </ol>
         <div class="col-12 col-sm-4 col-md-3">
           <h3>About Us</h3>
           <hr />
@@ -67,10 +99,10 @@
       </div>
 
       <div class="row">
-        <div class="col col-sm col-md ">
+        <div class="col col-sm col-md">
           <h2>Corporate Leadership</h2>
           <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-          <p class=".d-none .d-sm-block">
+          <p class="d-none d-sm-block">
             Our CEO, Peter, credits his hardworking East Asian immigrant parents
             who undertook the arduous journey to the shores of America with the
             intention of giving their children the best future. His mother's
@@ -87,7 +119,7 @@
       <div class="row">
         <div class="col col-sm col-md">
           <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
-          <p class=".d-none .d-sm-block">
+          <p class="d-none d-sm-block">
             Our CFO, Danny, as he is affectionately referred to by his
             colleagues, comes from a long established family tradition in
             farming and produce. His experiences growing up on a farm in the
@@ -113,10 +145,10 @@
         </div>
       </div>
 
-      <div class="row ">
+      <div class="row">
         <div class="col col-sm col-md">
           <h3>Alberto Somayya <small>Executive Chef</small></h3>
-          <p class=".d-none .d-sm-block">
+          <p class="d-none d-sm-block">
             Award winning three-star Michelin chef with wide International
             experience having worked closely with whos-who in the culinary
             world, he specializes in creating mouthwatering Indo-Italian fusion
@@ -128,7 +160,7 @@
           </p>
         </div>
       </div>
-
+    </div>
 
     <footer class="footer">
       <div class="container">
@@ -136,7 +168,7 @@
           <div class="col-4 offset-1 col-sm-2">
             <h5>Links</h5>
             <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
+              <li><a href="./index.html">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Menu</a></li>
               <li><a href="#">Contact</a></li>
